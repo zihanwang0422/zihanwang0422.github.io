@@ -536,7 +536,7 @@
 
 <div class="container">
 <div class="info-section">
-  <center><h1>Mobile Car Projects</h1></center>
+  <center><h1>Quadruped Robots Projects</h1></center>
 </div>
 
 <!-- Table of Contents -->
@@ -551,7 +551,7 @@
 <!-- Project 1: AMP for Go1 -->
 <section id="AMP for Go1">
   <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <img src="../images/quadruped/gym.gif" alt="AMP for Go1" style="width: 300px; height: auto; margin-right: 30px; margin-left: 0; margin-top: 0; margin-bottom: 0;">
+    <img src="../images/quadruped/gym.gif" alt="AMP for Go1" style="width: 300px; height: auto; margin-right: 30px; margin-left: 0; margin-top: 25px; margin-bottom: 0;">
     <div>
       <h2 style="margin-bottom: 15px; color: #333;">AMP for Go1</h2>
       <p style="margin-bottom: 10px; font-size: 1.1em; line-height: 1.5;">
@@ -564,60 +564,87 @@
     </div>
   </div>
 
-  <h2 style="margin-top:8px;">1. Sim2Sim</h2>
-  <p style="margin-bottom: 12px; font-size: 1.05em;"></p>
+<h2 style="margin-top:8px;">1. Sim2Sim</h2>
+<p style="margin-bottom: 12px; font-size: 1.05em;"></p>
+<div style="display: flex; justify-content: center; width: 100%; margin-bottom: 30px;">
+    <img src="../images/quadruped/sim2sim.gif" alt="Sim2Sim" style="width: 300px; height: auto;">
+</div>
 
-  <h2 style="margin-top:8px;">2. Sim2Real</h2>
-
-
-
-
-  <!-- <h3 style="margin-top:16px;">1.1 </h3> -->
-  
+<h2 style="margin-top:8px;">2. Sim2Real</h2>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 250px; overflow: hidden; margin-top: 20px;">
+    <img src="../images/quadruped/sim2real.gif" 
+        alt="Sim2Real" 
+        style="
+            width: 200px;            /* 调整这个数值来改变旋转后的视觉大小 */
+            height: auto;
+            transform: rotate(-90deg);
+            flex-shrink: 0;
+        ">
+</div>
 <br>
 
 
 <!-- Project 2: Locomotion in Unstructured Outdoor Environment -->
 <section id="locomotion-unstructured-outdoor-environment">
   <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <img src="../images/quadruped/navigation.gif" alt="Locomotion in Unstructured Outdoor Environment" style="width: 300px; height: auto; margin-right: 30px; margin-left: 0; margin-top: 0; margin-bottom: 0;">
+    <img src="../images/quadruped/walkrough_isaac.gif" alt="Locomotion in Unstructured Outdoor Environment" style="width: 270px; height: auto; margin-right: 25px; margin-left: 0; margin-top: 25px; margin-bottom: 0;">
     <div>
-      <h2 style="margin-bottom: 15px; color: #333;">Locomotion in Unstructured Outdoor Environment</h2>
+      <h2 style="margin-bottom: 15px; color: #333;">Quadruped Locomotion and Navigation in wild</h2>
       <p style="margin-bottom: 10px; font-size: 1.1em; line-height: 1.5;">
         Impletion of the Asymmetric Proximal Policy Optimization (APPO) algorithm to train a quadruped robot (Go1) for agile locomotion tasks.
         And deploy the trained policy in mujoco(sim2sim) and real robot(sim2real).
       </p>
       <div class="links" style="margin-top: 15px;">
-        [<a href="https://github.com/ZihanWang0422/Treasure_Hunting_Car" target="_blank">Code</a>]
+        [<a href="https://github.com/zihanwang0422/legged_rl_lab/tree/master/deploy/go2_deploy" target="_blank">Code</a>]
       </div>
     </div>
   </div>
 
-      <div class="video-container" style="margin: 20px 0;">
-    <h2 style="margin-bottom:10px;">Video</h2>
+    <h2 style="margin-top:8px;">1. Sim2Sim</h2>
+    <p style="margin-bottom: 12px; font-size: 1.05em;"></p>
+    <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 30px;">
+        <img src="../images/quadruped/" alt="Sim2Sim" style="width: 300px; height: auto;">
+    </div>
+
+    <h2 style="margin-top:8px;">2. Elevation Map</h2>
+    <p style="margin-bottom: 12px; font-size: 1.05em;"></p>
+    <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 30px;">
+        <img src="../images/quadruped/fastlio.jpg" alt="Sim2Sim - Elevation Map 2" style="width: 45%; height: auto; max-width: 400px;">
+        <img src="../images/quadruped/elevationmap.jpg" alt="Sim2Sim" style="width: 400px; height: auto;">
+
+    </div>
+
+    <div class="video-container" style="margin: 20px 0;">
+    <h2 style="margin-bottom:10px;">3. Real World</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_e65FgZ2tMw" title="Locomotion in out-door environment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+
 
   <!-- Project 3: Locomotion in Unstructured Outdoor Environment -->
 <section id="locomotion-unstructured-outdoor-environment">
   <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <img src="../images/quadruped/navigation.gif" alt="Locomotion in Unstructured Outdoor Environment" style="width: 300px; height: auto; margin-right: 30px; margin-left: 0; margin-top: 0; margin-bottom: 0;">
     <div>
-      <h2 style="margin-bottom: 15px; color: #333;">Locomotion in Unstructured Outdoor Environment</h2>
+      <h2 style="margin-bottom: 15px; color: #333;">Humanoid Locomotion on Stairs</h2>
       <p style="margin-bottom: 10px; font-size: 1.1em; line-height: 1.5;">
-        Impletion of the Asymmetric Proximal Policy Optimization (APPO) algorithm to train a quadruped robot (Go1) for agile locomotion tasks.
-        And deploy the trained policy in mujoco(sim2sim) and real robot(sim2real).
+        
       </p>
       <div class="links" style="margin-top: 15px;">
-        [<a href="https://github.com/ZihanWang0422/Treasure_Hunting_Car" target="_blank">Code</a>]
+        [<a href="https://github.com/zihanwang0422/legged_rl_lab/tree/master/deploy/g1_deploy" target="_blank">Code</a>]
       </div>
     </div>
   </div>
 
       <div class="video-container" style="margin: 20px 0;">
-    <h2 style="margin-bottom:10px;">Video</h2>
+    <h2 style="margin-bottom:10px;">1. Sim2Sim</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/h-nCZMZIUpk" title="Locomotion in out-door environment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+
+    <h2 style="margin-top:8px;">2. Sim2Real</h2>
+    <p style="margin-bottom: 12px; font-size: 1.05em;"></p>
+    <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 30px;">
+        <img src="../images/quadruped/" alt="Sim2Real" style="width: 300px; height: auto;">
+    </div>
 
   
 
